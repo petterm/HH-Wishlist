@@ -13,6 +13,8 @@ A World of Warcraft Classic addon for marking loot preference to be shared withi
   - Nice-to-have
   - Aquired
 
+Think of a way to handle alt characters so that they do not make the main data unreadable.
+
 ````lua
 players = {
   ["playerName"] = {
