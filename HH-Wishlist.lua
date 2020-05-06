@@ -80,6 +80,32 @@ function Wishlist:DPrint(...)
     end
 end
 
+
 function Wishlist:Show()
     self:DPrint("TODO: Show UI")
+end
+
+
+function Wishlist:UpdateUI()
+    self:DPrint("TODO: Update UI")
+end
+
+
+--[[========================================================
+                        Data
+========================================================]]--
+
+
+function Wishlist:GetPlayersData()
+    self:DPrint("TODO: GetPlayersData")
+    return {}
+end
+
+
+function Wishlist:UpdatePlayerData(playerName, data)
+    self:DPrint("TODO: UpdatePlayerData")
+    if playerName == UnitName("player") then
+        self:DPrint("Attempted to update personal data from external source")
+        return
+    end
 end
